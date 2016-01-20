@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+        <HOST>jdbc:mysql://localhost:3306/fiscal</HOST>
+        <USERNAME>root</USERNAME>
+        <PASSWORD>root</PASSWORD>
+</config>
