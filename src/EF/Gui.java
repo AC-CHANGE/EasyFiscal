@@ -15,7 +15,7 @@ import java.text.ParseException;
 public class Gui extends JFrame {
     DbWorker worker = new DbWorker();
 
-    //Main panel
+    //Main panel front
     JPanel main;
     JButton mainAddRroButton;
 
