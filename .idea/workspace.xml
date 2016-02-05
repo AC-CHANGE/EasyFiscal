@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94966792-e4e3-4323-83a8-ee85dafdffd6" name="Default" comment="" />
+    <list default="true" id="94966792-e4e3-4323-83a8-ee85dafdffd6" name="Default" comment="Add mouseListener to fiscals by owners. Wich allows change panel by 2click and show information about selected cash register.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EF/DbWorker.java" afterPath="$PROJECT_DIR$/src/EF/DbWorker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="4c375ef5-2c1e-4aa0-a0fc-74f8d03e4816" name="Rejected commit: Default" comment="Add mouseListener to fiscals by owners. Wich allows change panel by 2click and show information about selected cash register.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EF/Gui.java" afterPath="$PROJECT_DIR$/src/EF/Gui.java" />
+    </list>
     <ignored path="EasyFiscal.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,36 +37,6 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - fiscal@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="fiscal" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="owners" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - fiscal@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="fiscal" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="kassi" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -71,43 +48,44 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EF/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="459">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gui.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gui.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EF/Gui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5763" max-vertical-offset="10931">
-              <caret line="341" column="71" selection-start-line="341" selection-start-column="40" selection-end-line="341" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.16915423" vertical-offset="10540" max-vertical-offset="10999">
+              <caret line="631" column="36" selection-start-line="631" selection-start-column="36" selection-end-line="631" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DbWorker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DbWorker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EF/DbWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3555133" vertical-offset="340" max-vertical-offset="4930">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="5168">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding>
-                <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-                <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-                <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-                <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-                <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-                <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-                <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-                <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-                <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-                <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-                <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-                <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-                <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-                <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+                <element signature="imports" expanded="true" />
+                <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+                <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+                <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+                <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+                <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+                <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+                <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+                <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+                <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+                <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+                <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+                <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+                <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+                <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
               </folding>
             </state>
           </provider>
@@ -116,21 +94,10 @@
       <file leaf-file-name="SAXPars.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EF/SAXPars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1071">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="42" />
+            <state vertical-scroll-proportion="-5.6896553" vertical-offset="209" max-vertical-offset="1071">
+              <caret line="22" column="103" selection-start-line="22" selection-start-column="102" selection-end-line="22" selection-end-column="103" />
               <folding>
-                <element signature="e#1069#1070#0" expanded="false" />
-                <element signature="e#1101#1102#0" expanded="false" />
-                <element signature="e#1148#1149#0" expanded="false" />
-                <element signature="e#1188#1189#0" expanded="false" />
-                <element signature="e#1235#1236#0" expanded="false" />
-                <element signature="e#1275#1276#0" expanded="false" />
-                <element signature="e#1306#1307#0" expanded="false" />
-                <element signature="e#1333#1334#0" expanded="false" />
-                <element signature="e#1367#1368#0" expanded="false" />
-                <element signature="e#1398#1399#0" expanded="false" />
-                <element signature="e#1432#1433#0" expanded="false" />
-                <element signature="e#1463#1464#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,14 +112,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/EF/SAXPars.java" />
         <option value="$PROJECT_DIR$/config/DBconfig.xml" />
         <option value="$PROJECT_DIR$/src/EF/MainController.java" />
-        <option value="$PROJECT_DIR$/src/EF/Gui.java" />
         <option value="$PROJECT_DIR$/src/EF/DbWorker.java" />
+        <option value="$PROJECT_DIR$/src/EF/Gui.java" />
       </list>
     </option>
   </component>
@@ -173,7 +143,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -198,6 +168,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,10 +192,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyFiscal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repositoriy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -241,6 +229,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RunManager" selected="Application.MainController">
     <configuration default="false" name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -554,11 +544,13 @@
       <workItem from="1452800988728" duration="6308000" />
       <workItem from="1452808290836" duration="701000" />
       <workItem from="1453338150904" duration="114000" />
+      <workItem from="1453660008107" duration="300000" />
+      <workItem from="1454672354013" duration="9200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19151000" />
+    <option name="totallyTimeSpent" value="28651000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -581,26 +573,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0048859934" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0032626428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2300163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2300163" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07504078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5008157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2344932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2344932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08472012" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -610,7 +603,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -628,6 +620,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Add mouseListener to fiscals by owners. Wich allows change panel by 2click and show information about selected cash register." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mouseListener to fiscals by owners. Wich allows change panel by 2click and show information about selected cash register." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -651,20 +645,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4930">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -674,18 +669,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1071">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="42" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -695,20 +679,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="4913">
           <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -718,18 +703,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1037">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -755,20 +729,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="4913">
           <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -778,18 +753,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="1037">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -815,20 +779,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="5185">
           <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -838,18 +803,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="1037">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -875,20 +829,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="5185">
           <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -898,18 +853,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="1037">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -935,20 +879,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="5185">
           <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -958,18 +903,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="1037">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -995,20 +929,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="5185">
           <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -1018,18 +953,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="1037">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1055,20 +979,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="5015">
           <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -1078,18 +1003,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1115,20 +1029,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="4743">
           <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -1138,18 +1053,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="1003">
           <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1175,20 +1079,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="4743">
           <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -1198,18 +1103,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="1003">
           <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1235,20 +1129,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5151">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -1258,18 +1153,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1003">
           <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1295,20 +1179,21 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -1334,6 +1219,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/EF/DbWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="5168">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1454672980628" expanded="true" signature="2029:2086" placeholder="SELECT missi..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2549:2610" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="2993:3053" placeholder="SELECT missi..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3493:3523" placeholder="SELECT name ..owners..." />
+            <marker date="1454672980628" expanded="true" signature="3950:3981" placeholder="SELECT zavNu..kassi..." />
+            <marker date="1454672980628" expanded="true" signature="4385:4538" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="4873:5015" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="5441:5823" placeholder="INSERT INTO ..." />
+            <marker date="1454672980628" expanded="true" signature="6301:6363" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="6613:6695" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7024:7086" placeholder="DELETE FROM ..." />
+            <marker date="1454672980628" expanded="true" signature="7319:7366" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="7702:7748" placeholder="SELECT COUNT..." />
+            <marker date="1454672980628" expanded="true" signature="8423:8437" placeholder="select * fro..missingValue..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/EF/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
@@ -1344,53 +1253,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EF/SAXPars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1071">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="42" />
+        <state vertical-scroll-proportion="-5.6896553" vertical-offset="209" max-vertical-offset="1071">
+          <caret line="22" column="103" selection-start-line="22" selection-start-column="102" selection-end-line="22" selection-end-column="103" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1188#1189#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EF/Gui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5763" max-vertical-offset="10931">
-          <caret line="341" column="71" selection-start-line="341" selection-start-column="40" selection-end-line="341" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.16915423" vertical-offset="10540" max-vertical-offset="10999">
+          <caret line="631" column="36" selection-start-line="631" selection-start-column="36" selection-end-line="631" selection-end-column="36" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EF/DbWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3555133" vertical-offset="340" max-vertical-offset="4930">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <marker date="1453337131658" expanded="true" signature="2035:2092" placeholder="SELECT missi..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2555:2616" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="2999:3059" placeholder="SELECT missi..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3499:3529" placeholder="SELECT name ..owners..." />
-            <marker date="1453337131658" expanded="true" signature="3956:3987" placeholder="SELECT zavNu..kassi..." />
-            <marker date="1453337131658" expanded="true" signature="4391:4544" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="4879:5021" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="5447:5829" placeholder="INSERT INTO ..." />
-            <marker date="1453337131658" expanded="true" signature="6307:6369" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="6619:6701" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7030:7092" placeholder="DELETE FROM ..." />
-            <marker date="1453337131658" expanded="true" signature="7325:7372" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="7708:7754" placeholder="SELECT COUNT..." />
-            <marker date="1453337131658" expanded="true" signature="8429:8443" placeholder="select * fro..missingValue..." />
-          </folding>
         </state>
       </provider>
     </entry>

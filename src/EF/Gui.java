@@ -4,8 +4,7 @@ package EF;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.text.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
@@ -87,6 +86,7 @@ public class Gui extends JFrame {
         super(s);
 
         Handler handler = new Handler();
+        MHandler mhandler = new MHandler();
 
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -332,14 +332,16 @@ public class Gui extends JFrame {
         ownFiscBackButton.addActionListener(handler);
         ownFiscBox.addActionListener(handler);
 
+
         ownFisc.add(ownFisScrollPane);
         ownFisc.add(ownFiscBackButton);
         ownFisc.add(ownFiscBox);
         ownFisc.setVisible(true);
+        ownFiscArea.addMouseListener(mhandler);
 
 
         //toXlsPanel
-        ImageIcon iconXls=new ImageIcon(String.valueOf(new File("resources/icons/xls.png")));
+        ImageIcon iconXls = new ImageIcon(String.valueOf(new File("resources/icons/xls.png")));
         toXls = new JPanel();
         toXls.setLayout(null);
         toXlsBackButton = new JButton("Вернуться назад");
@@ -365,13 +367,8 @@ public class Gui extends JFrame {
         repaint();
 
 
-        //add(fisc);
-        //fisc.setVisible(true);
-
-        //main.setVisible(true);
-        //main.repaint();
-
     }
+
 
     public class Handler implements ActionListener {
 
@@ -428,21 +425,18 @@ public class Gui extends JFrame {
             } else if (e.getSource() == ownerSaveButton) {
 
 
+                if ((ownerListComboBox.getSelectedItem().toString().equals("")) || (ownerAdresField.getText().equals("")) || (ownerEdrpoField.getText().equals(""))) {
+                    JOptionPane.showMessageDialog(null, "Не все обязательные поля заполнены", "Warning!", JOptionPane.WARNING_MESSAGE);
 
+                } else {
+                    try {
 
+                        if (ownerIpnField.getText().equals("")) {
+                            worker.addNewOwner(ownerListComboBox.getSelectedItem().toString(), ownerAdresField.getText(), ownerEdrpoField.getText());
+                        } else {
+                            try {
 
-                    if ((ownerListComboBox.getSelectedItem().toString().equals("")) || (ownerAdresField.getText().equals("")) || (ownerEdrpoField.getText().equals(""))) {
-                        JOptionPane.showMessageDialog(null, "Не все обязательные поля заполнены", "Warning!", JOptionPane.WARNING_MESSAGE);
-
-                    } else {
-                        try {
-
-                            if (ownerIpnField.getText().equals("")) {
-                                worker.addNewOwner(ownerListComboBox.getSelectedItem().toString(), ownerAdresField.getText(), ownerEdrpoField.getText());
-                            } else {
-                                try{
-
-                                    Integer.parseInt(ownerIpnField.getText());
+                                Integer.parseInt(ownerIpnField.getText());
                                 worker.addNewOwner(ownerListComboBox.getSelectedItem().toString(), ownerAdresField.getText(), ownerEdrpoField.getText(), ownerIpnField.getText());
                                 if (worker.ownersCount() > ownerListComboBox.getItemCount()) {
                                     fiscOwnerBox.addItem(ownerListComboBox.getSelectedItem());
@@ -450,20 +444,17 @@ public class Gui extends JFrame {
                                     ownFiscBox.addItem(ownerListComboBox.getSelectedItem());
                                 }
                                 JOptionPane.showMessageDialog(null, "Данные успешно внесены!", "Information!", JOptionPane.INFORMATION_MESSAGE);
-                                } catch (Exception e2){
-                                    JOptionPane.showMessageDialog(null, e2.getMessage(), "Error!!", JOptionPane.ERROR_MESSAGE);
-                                }
+                            } catch (Exception e2) {
+                                JOptionPane.showMessageDialog(null, e2.getMessage(), "Error!!", JOptionPane.ERROR_MESSAGE);
                             }
-
-
-
-
-                        } catch (SQLException e1) {
-                            JOptionPane.showMessageDialog(null, e1.getMessage(), "Error!!", JOptionPane.ERROR_MESSAGE);
-                            // e1.printStackTrace();
                         }
-                    }
 
+
+                    } catch (SQLException e1) {
+                        JOptionPane.showMessageDialog(null, e1.getMessage(), "Error!!", JOptionPane.ERROR_MESSAGE);
+                        // e1.printStackTrace();
+                    }
+                }
 
 
             } else if (e.getSource() == ownerListComboBox) {
@@ -631,6 +622,26 @@ public class Gui extends JFrame {
 
 
     }
+
+    public class MHandler extends MouseAdapter {
+        @Override
+        public void mouseClicked(MouseEvent e) {
+            if (e.getClickCount() == 2) {
+                String txt = ownFiscArea.getSelectedText();
+                if (txt != null) {
+                    remove(ownFisc);
+                    add(fisc);
+                    fiscZnBox.setSelectedItem(txt);
+                    revalidate();
+                    repaint();
+                }
+            }
+        }
+
+
+    }
+
+
 }
 
 

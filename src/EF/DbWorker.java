@@ -1,7 +1,5 @@
 package EF;
 
-//DB
-
 
 import org.apache.poi.hssf.usermodel.HSSFRichTextString;
 import org.apache.poi.hssf.usermodel.HSSFRow;
